@@ -2,10 +2,10 @@
 def define_boundary(frame):
     height, width, _ = frame.shape
     # Define boundary as a central region (30% width, 50% height)
-    x1 = int(width * 0.35)   # 35% from the left
-    x2 = int(width * 0.65)   # 65% from the left
-    y1 = int(height * 0.4)   # 40% from the top
-    y2 = int(height * 0.9)   # 90% from the top
+    x1 = int(width * 0.35)   
+    x2 = int(width * 0.65)   
+    y1 = int(height * 0.4)   
+    y2 = int(height * 0.9)   
 
     return (x1, y1, x2, y2)
 
